@@ -3,7 +3,7 @@ from bot import Bot
 Bot().run()
 
 
-# Tech freak 
+# HEMANTH X A AND C
 # Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
-# Developer @devilo7
+# Telegram Channel @ANIMETELUGUDUALTYPE
+# Developer @alonekingstar7
