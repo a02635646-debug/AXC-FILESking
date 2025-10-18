@@ -5,19 +5,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8201560790:AAE_WeAmFXMdaS74lywKwbSBT3LdG7rjFew")
+API_ID = int(os.environ.get("API_ID", "20232047"))
+API_HASH = os.environ.get("API_HASH", "ec4fab92f1d53f4b62db607225d994ad")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6299192020"))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
+OWNER_ID = int(os.environ.get("OWNER_ID", "58973445314"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Hemanthxforyou:9550399779htr@cluster0.e50ndwr.mongodb.net/")
+DB_NAME = os.environ.get("DB_NAME", "hemanthxforyou")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID","-1002982919681")
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003166051388")
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
@@ -37,8 +37,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6299192020 ,6016699737, 5000956033]
-    for x in (os.environ.get("ADMINS", "6299192020").split()):
+    ADMINS=[58973445314]
+    for x in (os.environ.get("ADMINS", "58973445314").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -67,15 +67,15 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n\n» My Owner 👉 "
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Advance File Store bot 😈 \n\n I was created by 👉@Tech_freak_tamil </b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Advance File Store bot 😈 \n\n I was created by 👉@alonekingstar7 </b>")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You must join the given channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
 
 
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(6299192020)
+ADMINS.append(58973445314)
+ADMINS.append(58973445314)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
@@ -107,10 +107,10 @@ class Txt(object):
 <b>📢 Channel :</b> <a href='https://t.me/tech_freak_tamil'>TFT BOTS</a>
 <b>🛡️ :</b> <a href='https://t.me/+NITVxLchQhYzNGZl'>TFT Developer</a>
     
-<b>😈 Bot Made By :</b> @tech_freak_tamil"""
+<b>😈 Bot Made By :</b> @ANIMETELUGUDUALTYPE"""
 
 
 # Tech freak 
 # Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
-# Developer @devilo7
+# Telegram Channel @ANIMETELUGUDUALTYPE
+# Developer @ALONEKINGSTAR7
